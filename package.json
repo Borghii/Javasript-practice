@@ -1,0 +1,25 @@
+{
+  "name": "javasript-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borghii/Javasript-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Borghii/Javasript-practice/issues"
+  },
+  "homepage": "https://github.com/Borghii/Javasript-practice#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0"
+  }
+}
