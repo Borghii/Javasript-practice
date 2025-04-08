@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/output.css" rel="stylesheet" />
+    <title>Pomodoro</title>
+  </head>
+
+  <body>
+    <script src="main.js"></script>
+
+    <!-- Principal container -->
+    <div
+      class="flex flex-col justify-center items-center min-h-screen bg-amber-600"
+    >
+      <!-- Inner container -->
+      <div class="bg-blue-800 flex flex-col p-10 rounded-2xl gap-4 text-center">
+        <!-- Contador -->
+
+        <div class="text-2xl text-white" id="time">
+          <div id="value"></div>
+          <div id="taskName"></div>
+        </div>
+
+        <div class="flex flex-col">
+          <form class="flex flex-row gap-3.5" id="form" action="">
+            <input
+              id="itTask"
+              class="bg-amber-50 border-2 rounded-lg p-2"
+              type="text"
+            />
+            <button
+              type="submit"
+              id="bAdd"
+              class="bg-black rounded-lg cursor-pointer border-gray-600 border-2 text-amber-50 p-2 hover:bg-gray-600 hover:border-black hover:text-black transition-all duration-500"
+            >
+              Add task
+            </button>
+          </form>
+
+          <div class="tasks"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
