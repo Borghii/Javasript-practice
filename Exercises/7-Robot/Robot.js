@@ -41,6 +41,7 @@ class VillageState {
     this.place = place;
     this.parcels = parcels;
   }
+
   move(destination) {
     if (!roadGraph[this.place].includes(destination)) {
       return this;
