@@ -8,8 +8,6 @@
   </head>
 
   <body>
-    <script src="main.js"></script>
-
     <!-- Principal container -->
     <div
       class="flex flex-col justify-center items-center min-h-screen bg-amber-600"
@@ -17,14 +15,18 @@
       <!-- Inner container -->
       <div class="bg-blue-800 flex flex-col p-10 rounded-2xl gap-4 text-center">
         <!-- Contador -->
-
         <div class="text-2xl text-white" id="time">
           <div id="value"></div>
           <div id="taskName"></div>
         </div>
 
-        <div class="flex flex-col">
-          <form class="flex flex-row gap-3.5" id="form" action="">
+        <!-- Tasks -->
+        <div class="flex flex-col gap-2">
+          <form
+            class="flex flex-row justify-between gap-3.5"
+            id="form"
+            action=""
+          >
             <input
               id="itTask"
               class="bg-amber-50 border-2 rounded-lg p-2"
@@ -39,9 +41,11 @@
             </button>
           </form>
 
-          <div class="tasks"></div>
+          <div id="tasks"></div>
         </div>
       </div>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
